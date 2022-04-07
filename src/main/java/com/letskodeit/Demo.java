@@ -1,5 +1,5 @@
 package com.letskodeit;
 
 public class Demo {
-    int a=101;
+    int a=100;
 }
