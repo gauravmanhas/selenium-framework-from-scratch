@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="classes" thread-count="2">
+    <test name="Application Test" preserve-order="true">
+        <groups>
+            <run>
+                <include name="Sanity" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.letskodeit.testclasses.LoginTests"></class>
+            <class name="com.letskodeit.testclasses.AllCoursesTests"></class>
+        </classes>
+    </test>
+</suite>
